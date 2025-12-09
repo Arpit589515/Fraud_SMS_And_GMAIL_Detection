@@ -14,7 +14,7 @@ function App() {
         <Route path="/next" element={<NextPage />} />
         <Route path="/sms" element={<SmsDetection />} />
         <Route path="/gmail" element={<GmailDetection />} />
-        <Route path="/reports" element={<Report />} />  {/* ✅ fixed */}
+        <Route path="/reports" element={<Report />} />  
       </Routes>
     </Router>
   );
